@@ -28,7 +28,7 @@ const NavBar = ({ cart }) => {
       </Link>
       <Flex>
       <Link to="Forms">
-          <Box bg="teal" py={3} px={5}>
+          <Box bg="teal" py={6} px={5} >
             <AiOutlineForm color="white" />
           </Box>
         </Link>

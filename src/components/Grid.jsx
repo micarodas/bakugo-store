@@ -56,7 +56,7 @@ const Grid = ({
           {path === "/cart" ? (
           isCartEmpty ? (
            
-              <Text fontSize='5xl'>
+              <Text fontSize='3xl'>
                 El carrito está vacío.
               </Text>
            

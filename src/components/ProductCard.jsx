@@ -42,7 +42,7 @@ const ProductCard = ({
         <Link to={`/products/${id}`}>
           <Button
             variant="solid"
-            colorScheme="green"
+            colorScheme="teal"
             onClick={() => getProduct(id)}
           >
             Ver más
@@ -57,7 +57,7 @@ const ProductCard = ({
       <CardBody>
         <Image
           src={imagen}
-          alt="Green double couch with wooden legs"
+          alt="buzos"
           borderRadius="lg"
         />
         <Stack mt="6" spacing="3">
